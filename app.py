@@ -2,8 +2,9 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
-    return render_template('index.html')
+def hello_world18():
+
+    return render_template('index/index.html')
 
 @app.rout('/login')
 def login():
