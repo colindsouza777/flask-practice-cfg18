@@ -8,6 +8,9 @@ def hello_world18():
 @app.route('/about')
 def about():
     return render_template('about_us/about.html')
+@app.route('/contact')
+def contact():
+    return "Contact"
 
 if __name__ == "__main__":
     app.run(debug=True)
