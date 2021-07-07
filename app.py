@@ -3,7 +3,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world1():
-
     return render_template('index/index.html')
 
 @app.route('/about')
