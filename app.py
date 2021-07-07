@@ -11,6 +11,9 @@ def about1():
 @app.route('/contact')
 def contact():
     redirect('/')
+@app.route('/Home')
+def Home():
+    redirect('/')
 
 if __name__ == "__main__":
     app.run(debug=True)
