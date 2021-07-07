@@ -6,7 +6,7 @@ def hello_world18():
     return render_template('index/index.html')
 
 @app.route('/about')
-def about1():
+def about123():
     return render_template('about_us/about.html')
 @app.route('/contact')
 def contact():
